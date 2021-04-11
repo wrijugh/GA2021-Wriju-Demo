@@ -9,7 +9,6 @@ This repository is made for the demo I have prepared for the Azure Global Bootca
 This is divided into few sections
 - Making the development machines (installing runtime and tools)
   - Dotnet Core
-    - Moda
   - Git
   - Docker CE
   - Kubectl
