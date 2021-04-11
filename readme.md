@@ -7,7 +7,7 @@
 This repository is made for the demo I have prepared for the Azure Global Bootcamp 2021 India chapter.
 
 This is divided into few sections
-- Making the development machines (installing runtime and tools)
+- Making the development machine (installing runtime and tools)
   - Dotnet Core
   - Git
   - Docker CE
@@ -18,3 +18,11 @@ This is divided into few sections
 - Testing the containerized ASP.NET Core Application locally.
 - Moving this container image to Docker Registry (Docker hub).
 -  
+
+## Making the dev VM
+
+### Making the cheapest Azure Ubuntu VM
+
+
+### Installing .NET Core
+
