@@ -2,24 +2,22 @@
 #az login 
 
 # Variables
-g=rg-azbootcamp2021;l=eastus
-
+g=rg-azbootcamp20212;l=eastus;
+n=vm-ubuntu;admin=wriju;passwd='Gabc2021!@#$';vmname=ubuntu-dev;size=Standard_DS2_v2
+passwd='P@ssw0rd123!'
 # Create Resource Group
 az group create -n $g -l $l
 
 # Create a Cheapest VM for Dev
-n="vm-ubuntu"
-admin="wriju"
-passwd="Gabc2021!@#$"
-vmname="ubuntu-dev"
-size="Standard_DS2_v2"
+
 # Use Unmanaged Disks, Locally redundant storage
 az vm create -n $vmname -g $g --admin-username $admin --admin-password $passwd --authentication-type password --os-disk-size-gb 200 --image ubuntults --size $size --use-unmanaged-disk --storage-sku Standard_LRS
 
 # add auto shutdown to save cost
-az vm aut
+az vm auto-shutdown -n $vmname -g $g --time 1700
+
 # Get the Public Ip of the VM to connect to 
-echo "copy the SSH:"
+echo "Copy the SSH:"
 echo "ssh "$admin"@"$(az vm show -d -n $vmname -g $g --query "publicIps" -o tsv)
 
 #==========================
@@ -28,14 +26,8 @@ echo "ssh "$admin"@"$(az vm show -d -n $vmname -g $g --query "publicIps" -o tsv)
 # Install snapd
 sudo apt update && sudo apt install snapd
 
-# Install dotnet Core
-wget https://packages.microsoft.com/config/ubuntu/20.10/packages-microsoft-prod.deb -O packages-microsoft-prod.deb
-sudo dpkg -i packages-microsoft-prod.deb
-sudo apt-get update 
-sudo apt-get install -y apt-transport-https 
-sudo apt-get update && sudo apt-get install -y dotnet-sdk-5.0
-# OR 
-sudo snap install dotnet-sdk --classic
+# Install dotnet Core 3.1*
+sudo snap install dotnet-sdk --classic --channel=3.1
 
 # Install Kubectl
 sudo snap install kubectl --classic
@@ -52,4 +44,4 @@ newgrp docker
 sudo snap disable docker
 sudo snap enable docker
 
-# Done setting up the VM
+# ----------------Done setting up the VM

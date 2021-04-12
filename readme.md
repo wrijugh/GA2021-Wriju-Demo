@@ -8,8 +8,7 @@ This repository is made for the demo I have prepared for the Azure Global Bootca
 
 This is divided into few sections
 - Making the development machine (installing runtime and tools)
-  - Dotnet Core
-  - Git
+  - Dotnet Core 3.1
   - Docker CE
   - Kubectl
 - Installing Visual Studio Code and Connecting it remotely.
@@ -17,9 +16,12 @@ This is divided into few sections
 - Containerzing the ASP.NET Core Application.
 - Testing the containerized ASP.NET Core Application locally.
 - Moving this container image to Docker Registry (Docker hub).
--  
+- Push the image to ACR
+- Run the container in ACI
+- 
 
 ## Making the dev VM
+
 
 ### Making the cheapest Azure Ubuntu VM
 
