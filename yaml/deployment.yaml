@@ -16,7 +16,7 @@ spec:
         app: web
     spec:
       containers:
-      - image: wrijughosh/gabweb2021:latest
+      - image: wgacrgab2021.azurecr.io/sampleweb:latest #wrijughosh/gabweb2021:latest
         name: sampleweb
 ---
 apiVersion: v1
