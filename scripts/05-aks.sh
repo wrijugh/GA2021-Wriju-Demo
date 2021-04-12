@@ -4,9 +4,9 @@ az aks create -n $aksname -g $g --node-count=2 -a kube-dashboard --generate-ssh-
 
 az aks get-credentials -g $g -n $aksname
 
-#Copy the config to the home
+#Copy the config to the home D;/wriju
 
-dashboard
+#dashboard
 az aks browse -g $g -n $aksname
 
 kubectl delete clusterrolebinding kubernetes-dashboard
