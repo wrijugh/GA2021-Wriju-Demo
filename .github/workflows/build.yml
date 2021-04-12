@@ -23,6 +23,6 @@ jobs:
         registry: ${{ secrets.REGISTRY_LOGIN_SERVER }}
         path: './SampleWeb'
         dockerfile: './SampleWeb/Dockerfile'
-        repository: 'coupon.api'
-        tags: 'linux-latest'
+        repository: 'SampleWeb'
+        tags: 'latest'
         push: true
