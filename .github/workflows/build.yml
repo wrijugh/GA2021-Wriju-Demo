@@ -1,0 +1,28 @@
+name: eShop build
+
+on:
+  push:
+    paths:
+    - './SampleWeb/**'
+    branches: [ master ]
+
+jobs:
+  build-and-push-docker-image:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Get code from the repository
+      uses: actions/checkout@v1
+      with:
+        ref: master
+
+    - name: Build and push Docker image
+      uses: docker/build-push-action@v1.1.0
+      with:
+        username: ${{ secrets.REGISTRY_USERNAME }}
+        password: ${{ secrets.REGISTRY_PASSWORD }}
+        registry: ${{ secrets.REGISTRY_LOGIN_SERVER }}
+        path: .
+        dockerfile: './SampleWeb/Dockerfile'
+        repository: 'coupon.api'
+        tags: 'linux-latest'
+        push: true
