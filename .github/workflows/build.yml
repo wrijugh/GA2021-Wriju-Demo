@@ -1,4 +1,4 @@
-name: eShop build
+name: Global Azure Bootcamp 2021 Build
 
 on:
   push:
