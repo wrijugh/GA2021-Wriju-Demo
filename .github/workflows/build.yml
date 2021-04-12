@@ -1,4 +1,4 @@
-name: Global Azure Bootcamp 2021 Build
+name: GAB2021 Build
 
 on:
   push:
