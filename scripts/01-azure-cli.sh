@@ -4,7 +4,7 @@
 # Variables
 g=rg-azbootcamp20212;l=eastus;
 n=vm-ubuntu;admin=wriju;passwd='Gabc2021!@#$';vmname=ubuntu-dev;size=Standard_DS2_v2
-passwd='P@ssw0rd123!'
+
 # Create Resource Group
 az group create -n $g -l $l
 

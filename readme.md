@@ -7,6 +7,7 @@
 This repository is made for the demo I have prepared for the Azure Global Bootcamp 2021 India chapter.
 
 This is divided into few sections
+
 - Making the development machine in Azure
 - Installing runtime and tools
   - Dotnet Core 3.1
