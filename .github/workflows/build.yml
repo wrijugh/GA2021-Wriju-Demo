@@ -30,8 +30,8 @@ jobs:
     - uses: Azure/aks-set-context@v1
       with:
         creds: '${{ secrets.AZURE_CREDENTIALS }}'
-        cluster-name: contoso
-        resource-group: contoso-rg
+        cluster-name: wgaks
+        resource-group: rg-azbootcamp20212
         
     - uses: Azure/k8s-create-secret@v1
       with:
@@ -43,8 +43,7 @@ jobs:
     - uses: Azure/k8s-deploy@v1.4
       with:
         manifests: |
-          manifests/deployment.yml
-          manifests/service.yml
+          ./yaml/deployment.yml
         images: |
           ${{ secrets.REGISTRY_LOGIN_SERVER }}/sampleweb:latest
         imagepullsecrets: |
