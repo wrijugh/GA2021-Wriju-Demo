@@ -26,3 +26,26 @@ jobs:
         repository: 'sampleweb'
         tags: 'latest'
         push: true
+    # Deploy to AKS
+    - uses: Azure/aks-set-context@v1
+      with:
+        creds: '${{ secrets.AZURE_CREDENTIALS }}'
+        cluster-name: contoso
+        resource-group: contoso-rg
+        
+    - uses: Azure/k8s-create-secret@v1
+      with:
+        container-registry-url: ${{ secrets.REGISTRY_LOGIN_SERVER }}
+        container-registry-username: ${{ secrets.REGISTRY_USERNAME }}
+        container-registry-password: ${{ secrets.REGISTRY_PASSWORD }}
+        secret-name: demo-k8s-secret
+
+    - uses: Azure/k8s-deploy@v1.4
+      with:
+        manifests: |
+          manifests/deployment.yml
+          manifests/service.yml
+        images: |
+          ${{ secrets.REGISTRY_LOGIN_SERVER }}/sampleweb:latest
+        imagepullsecrets: |
+          demo-k8s-secret
