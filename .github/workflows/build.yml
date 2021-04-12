@@ -3,7 +3,7 @@ name: Global Azure Bootcamp 2021 Build
 on:
   push:
     paths:
-    - './SampleWeb/**'
+    - 'SampleWeb/**'
     branches: [ master ]
 
 jobs:
