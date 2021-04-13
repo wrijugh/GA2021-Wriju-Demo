@@ -1,6 +1,6 @@
-# Azure Global Bootcamp 2021 - India
+# Azure Global 2021 - India
 
-## ASP.NET Web Developer's Journey to Cloud
+## ASP.NET Web Developer's Journey to Cloud 
 
 *Demo by Wriju Ghosh [@wrijugh](https://twitter.com/wrijugh)*
 
