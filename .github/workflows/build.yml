@@ -30,8 +30,8 @@ jobs:
     - uses: Azure/aks-set-context@v1
       with:
         creds: '${{ secrets.AZURE_CREDENTIALS }}'
-        cluster-name: wgaks
-        resource-group: rg-azbootcamp20212
+        cluster-name: wgaks2
+        resource-group: rg-ga2021
         
     - uses: Azure/k8s-create-secret@v1
       with:
