@@ -4,7 +4,9 @@
 
 *Demo by Wriju Ghosh [@wrijugh](https://twitter.com/wrijugh)*
 
-**Github Page ** https://wrijugh.github.io/GA2021-Wriju-Demo/
+**Github Page** [https://wrijugh.github.io/GA2021-Wriju-Demo/](https://wrijugh.github.io/GA2021-Wriju-Demo/)
+
+[**Subscribe the Youtube channel**](https://www.youtube.com/channel/UCUzFKvlZOm3ukAiF59B_HgQ?sub-confirmation=1)
 
 This repository is made for the demo I have prepared for the Azure Global Bootcamp 2021 India chapter.
 
@@ -24,6 +26,7 @@ This is divided into few sections
 - Run the container in ACI
 - Deploying the container to Azure Kubernetes Service
 
+## Recorded
 
 ## 01-Making the dev VM
 
