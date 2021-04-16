@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/wriju/AzureGlobalBootcamp2021-Wriju-Demo/SampleWeb/SampleWeb.csproj": {}
+    "/workspaces/GA2021-Wriju-Demo/SampleWeb/SampleWeb.csproj": {}
   },
   "projects": {
-    "/home/wriju/AzureGlobalBootcamp2021-Wriju-Demo/SampleWeb/SampleWeb.csproj": {
+    "/workspaces/GA2021-Wriju-Demo/SampleWeb/SampleWeb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/wriju/AzureGlobalBootcamp2021-Wriju-Demo/SampleWeb/SampleWeb.csproj",
+        "projectUniqueName": "/workspaces/GA2021-Wriju-Demo/SampleWeb/SampleWeb.csproj",
         "projectName": "SampleWeb",
-        "projectPath": "/home/wriju/AzureGlobalBootcamp2021-Wriju-Demo/SampleWeb/SampleWeb.csproj",
-        "packagesPath": "/home/wriju/.nuget/packages/",
-        "outputPath": "/home/wriju/AzureGlobalBootcamp2021-Wriju-Demo/SampleWeb/obj/",
+        "projectPath": "/workspaces/GA2021-Wriju-Demo/SampleWeb/SampleWeb.csproj",
+        "packagesPath": "/var/nuget",
+        "outputPath": "/workspaces/GA2021-Wriju-Demo/SampleWeb/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/wriju/.nuget/NuGet/NuGet.Config"
+          "/home/codespace/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -24,6 +24,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -35,6 +36,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -45,6 +47,20 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.linux-x64",
+              "version": "[3.1.13, 3.1.13]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -53,7 +69,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/117/sdk/3.1.407/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/opt/dotnet/5.0.104/sdk/5.0.104/RuntimeIdentifierGraph.json"
         }
       }
     }

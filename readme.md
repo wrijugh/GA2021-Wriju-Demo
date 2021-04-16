@@ -51,7 +51,14 @@ Push the container to Azure Container Registry and host the container in Azure C
 
 ## 04-Deploying it to Azure Kubernetes Service (AKS)
 
+Now finally run it in Azure Kubernetes Service (AKS)
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/uKdTGu_ENSc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 [https://youtu.be/uKdTGu_ENSc](https://youtu.be/uKdTGu_ENSc)
 
+## 05-All in One
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yd3lX5bWLko" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+[https://youtu.be/yd3lX5bWLko](https://youtu.be/yd3lX5bWLko)
