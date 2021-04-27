@@ -4,7 +4,9 @@
 
 *Demo by Wriju Ghosh [@wrijugh](https://twitter.com/wrijugh)*
 
-**Github Page ** https://wrijugh.github.io/GA2021-Wriju-Demo/
+**Github Page** [https://wrijugh.github.io/GA2021-Wriju-Demo/](https://wrijugh.github.io/GA2021-Wriju-Demo/)
+
+[**Subscribe the Youtube channel**](https://www.youtube.com/channel/UCUzFKvlZOm3ukAiF59B_HgQ?sub-confirmation=1)
 
 This repository is made for the demo I have prepared for the Azure Global Bootcamp 2021 India chapter.
 
@@ -24,11 +26,15 @@ This is divided into few sections
 - Run the container in ACI
 - Deploying the container to Azure Kubernetes Service
 
+<<<<<<< HEAD
 ## On-demand Global Azure 2021 Recording
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/vn5BkimNk9g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 [https://youtu.be/vn5BkimNk9g](https://youtu.be/vn5BkimNk9g)
+=======
+## Recorded
+>>>>>>> 32d30f943bff6d6efaa2d06c764382c963495c15
 
 ## 01-Making the dev VM
 
@@ -56,7 +62,14 @@ Push the container to Azure Container Registry and host the container in Azure C
 
 ## 04-Deploying it to Azure Kubernetes Service (AKS)
 
+Now finally run it in Azure Kubernetes Service (AKS)
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/uKdTGu_ENSc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 [https://youtu.be/uKdTGu_ENSc](https://youtu.be/uKdTGu_ENSc)
 
+## 05-All in One
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yd3lX5bWLko" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+[https://youtu.be/yd3lX5bWLko](https://youtu.be/yd3lX5bWLko)
