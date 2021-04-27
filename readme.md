@@ -32,6 +32,7 @@ This is divided into few sections
 
 [https://youtu.be/vn5BkimNk9g](https://youtu.be/vn5BkimNk9g)
 
+# DYI Steps
 ## 01-Making the dev VM
 
 Create a cheapest Azure Ubuntu VM for development and install the tools and runtime.
