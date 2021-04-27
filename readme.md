@@ -26,15 +26,11 @@ This is divided into few sections
 - Run the container in ACI
 - Deploying the container to Azure Kubernetes Service
 
-<<<<<<< HEAD
 ## On-demand Global Azure 2021 Recording
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/vn5BkimNk9g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 [https://youtu.be/vn5BkimNk9g](https://youtu.be/vn5BkimNk9g)
-=======
-## Recorded
->>>>>>> 32d30f943bff6d6efaa2d06c764382c963495c15
 
 ## 01-Making the dev VM
 
